@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.denisha.lambung.Daftar_Penyakit"
+    tools:showIn="@layout/activity_daftar__penyakit"
+    android:background="@drawable/latarpenyakitlambung"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENYAKIT PADA LAMBUNG"
+        android:id="@+id/textView4"
+        android:textColor="#140909"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GERD"
+        style="@style/btnStyleInfo"
+        android:textColor="#000000"
+        android:id="@+id/btn_infogerd"
+        android:layout_above="@+id/btn_infoulkus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ULKUS PEPTIKUM "
+        style="@style/btnStyleInfo"
+        android:id="@+id/btn_infoulkus"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GASTRITIS AKUT"
+        style="@style/btnStyleInfo"
+        android:id="@+id/btn_infogasakut"
+        android:textColor="#000000"
+        android:layout_below="@+id/btn_infoulkus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GASTRITIS KRONIS"
+        style="@style/btnStyleInfo"
+        android:id="@+id/btn_infogaskron"
+        android:textColor="#000000"
+        android:layout_below="@+id/btn_infogasakut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+</RelativeLayout>

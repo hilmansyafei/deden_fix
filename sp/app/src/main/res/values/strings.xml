@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lambung</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_diagnosis">diagnosis</string>
+    <string name="title_activity_tentang__aplikasi">Tentang_Aplikasi</string>
+    <string name="title_activity_panduan">Panduan</string>
+    <string name="title_activity_poli__penyakit">Poli_Penyakit</string>
+    <string name="title_activity_daftar__penyakit">Daftar_Penyakit</string>
+    <string name="title_activity_homee">Homee</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_gerd">GERD</string>
+    <string name="title_activity_ulkus">Ulkus</string>
+    <string name="title_activity_gastritis">Gastritis</string>
+    <string name="title_activity_gastritis__kronis">Gastritis_Kronis</string>
+    <string name="title_activity_faktor_resiko__penyakit">FaktorResiko_Penyakit</string>
+    <string name="title_activity_hasil_diagnosis">Hasil_diagnosis</string>
+    <string name="title_activity_gerd1">gerd1</string>
+    <string name="title_activity_ulkus1">ulkus1</string>
+    <string name="title_activity_gastritis1">gastritis1</string>
+    <string name="title_activity_gaskron1">gaskron1</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_faktor_resiko2">FaktorResiko2</string>
+    <string name="title_activity_faktor_resiko3">FaktorResiko3</string>
+    <string name="title_activity_faktor_resiko4">FaktorResiko4</string>
+    <string name="title_activity_tidakada__hasil">Tidakada_Hasil</string>
+</resources>

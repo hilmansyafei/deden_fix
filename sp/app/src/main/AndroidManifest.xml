@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.denisha.lambung">
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ikonlauncher"
+        android:label="Gastro Diagnose"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Disease Gastro Diagnose"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Sistem Pakar Lambung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".diagnosis"
+            android:label="Diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Daftar_Penyakit"
+            android:label="Jenis Penyakit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Poli_Penyakit"
+            android:label="Daftar Rumah Sakit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Riwayat"
+            android:label="Riwayat Diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Panduan"
+            android:label="Panduan Aplikasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tentang_Aplikasi"
+            android:label="Tentang Aplikasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaktorResiko_Penyakit"
+            android:label="Info GERD"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hasil_diagnosis"
+            android:label="Hasil Diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gerd1"
+            android:label="Gastroesophageal Reflux Disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ulkus1"
+            android:label="Ulkus Peptikum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gastritis1"
+            android:label="Gastritis Akut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gaskron1"
+            android:label="Gatritis Kronis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.denisha.lambung.LoginActivity"
+            android:label="Input data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaktorResiko2"
+            android:label="Info Ulkus Peptikum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaktorResiko3"
+            android:label="Info Gastriti Akut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaktorResiko4"
+            android:label="Info Gastritis Kronis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tidakada_Hasil"
+            android:label="Hasil Diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".databaseActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Daftar Riawayat" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+            </activity>
+    </application>
+</manifest>

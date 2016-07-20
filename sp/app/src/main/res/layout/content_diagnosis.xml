@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.denisha.lambung.diagnosis"
+    tools:showIn="@layout/activity_diagnosis"
+    android:background="@drawable/latardiagnosis1">
+    <RelativeLayout
+        android:id="@+id/lnRadio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/tvPertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textAlignment="inherit"
+            android:textSize="25dp"
+            android:textColor="#060600"/>
+    <RadioGroup
+        android:layout_below="@+id/tvPertanyaan"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Rb"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YA"
+            android:id="@+id/rbYa"
+            android:textSize="25dp"
+            android:textColor="#060600" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIDAK"
+            android:id="@+id/rbTidak"
+            android:textColor="#060600"
+            android:textSize="25dp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/lempar_rbn"
+            android:layout_alignTop="@+id/Rb"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible" />
+    </RadioGroup>
+        <RelativeLayout
+            android:gravity="bottom"
+            android:layout_below="@+id/Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout">
+
+        </RelativeLayout>
+
+            <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"></GridLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LANJUT"
+            style="@style/btnStyleDiagnosis"
+            android:onClick="nextbutton"
+            android:id="@+id/btn_next"
+            android:layout_marginRight="52dp"
+            android:layout_marginEnd="52dp"
+            android:layout_alignTop="@+id/btn_kembali"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KEMBALI"
+            android:onClick="prevbutton"
+            style="@style/btnStyleDiagnosis"
+            android:id="@+id/btn_kembali"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/relativeLayout"
+            android:layout_toEndOf="@+id/relativeLayout"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
